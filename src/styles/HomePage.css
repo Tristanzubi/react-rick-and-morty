@@ -1,0 +1,23 @@
+.home-page {
+  background-color: var(--primary-color);
+  text-align: center;
+
+  h1 {
+    color: var(--third-color);
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  input {
+    width: 250px;
+    height: 30px;
+  }
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+  }
+}

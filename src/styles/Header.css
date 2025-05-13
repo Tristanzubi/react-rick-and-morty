@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--third-color);
+  height: 10vh;
+
+  img {
+    width: 50px;
+    object-fit: cover;
+    margin: 10px;
+  }
+
+  ul {
+    display: flex;
+    gap: 60px;
+    padding-right: 40px;
+  }
+}

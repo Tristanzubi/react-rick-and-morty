@@ -1,0 +1,41 @@
+.detail-main {
+  background-color: var(--primary-color);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  section {
+    display: flex;
+    background-color: var(--second-color);
+    width: 70vw;
+    border-radius: 20px;
+
+    img {
+      width: 450px;
+      border-radius: 20px 0 0 20px;
+    }
+
+    div {
+      font-size: 2rem;
+      padding: 20px;
+    }
+
+    h1 {
+      color: var(--third-color);
+    }
+    p {
+      color: var(--third-color);
+    }
+
+    p:nth-child(3) {
+      color: var(--fourth-color);
+      padding-top: 20px;
+    }
+
+    p:nth-child(5) {
+      color: var(--fourth-color);
+      padding-top: 20px;
+    }
+  }
+}

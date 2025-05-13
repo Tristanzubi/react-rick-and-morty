@@ -1,0 +1,19 @@
+.character-card {
+  height: 310px;
+  width: 250px;
+  background-color: var(--second-color);
+  border-radius: 20px;
+  margin: 0;
+
+  img {
+    height: 270px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+  figcaption {
+    text-align: center;
+    color: var(--third-color);
+    font-size: 1.5rem;
+  }
+}
