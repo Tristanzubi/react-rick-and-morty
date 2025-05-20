@@ -5,6 +5,11 @@
   background-color: var(--third-color);
   height: 10vh;
 
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
   img {
     width: 50px;
     object-fit: cover;
