@@ -3,6 +3,7 @@ import "../../styles/HomePage.css";
 import { useLoaderData } from "react-router";
 import { useState } from "react";
 import type { ChangeEvent } from "react";
+import useTheme from "../../utils/useTheme";
 
 interface RickData {
 	id: number;
@@ -10,6 +11,7 @@ interface RickData {
 	name: string;
 }
 function HomePage() {
+	const { theme } = useTheme();
 	const data = useLoaderData() as RickData[];
 	const [text, setTexte] = useState("");
 
@@ -22,7 +24,7 @@ function HomePage() {
 	);
 
 	return (
-		<section className="home-page">
+		<section className={`home-page ${theme && "light"}`}>
 			<h1>Rick and Morty</h1>
 			<input
 				type="text"

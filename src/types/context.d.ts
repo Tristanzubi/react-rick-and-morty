@@ -1,4 +1,4 @@
-// types of ThemeProvider
+// Types of ThemeProvider
 
 export type Children = {
 	children: ReactNode;
